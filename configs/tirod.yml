@@ -1,0 +1,159 @@
+# Training defaults are editable; paths refer to data not included here.
+profile: baseline
+detector: nanodet.yml
+data_root: ../datasets/TiROD
+output: ../outputs/tirod
+initial_checkpoint: null
+resnet_weights: null
+training:
+  seed: 1234
+  epochs: 50
+  batch_size: 8
+  workers: 0
+  lr: 0.001
+  min_lr: 5.0e-05
+  weight_decay: 0.05
+  grad_clip: 35
+  val_interval: 1
+replay:
+  capacity: 150
+  ratio: 0.5
+distillation:
+  alpha: 1.0
+  beta: 1.0
+ewc:
+  strength: 10000
+  fisher_batches: 32
+maintenance:
+  enabled: false
+tasks:
+- name: D1_High
+  source: TiROD
+  scene: High
+  expert: 0
+  train:
+    images: Domain1/High/images/train
+    annotations: Domain1/High/annotations/train.json
+  val:
+    images: Domain1/High/images/val
+    annotations: Domain1/High/annotations/val.json
+  test:
+    images: Domain1/High/images/test
+    annotations: Domain1/High/annotations/test.json
+- name: D1_Low
+  source: TiROD
+  scene: Low
+  expert: 1
+  train:
+    images: Domain1/Low/images/train
+    annotations: Domain1/Low/annotations/train.json
+  val:
+    images: Domain1/Low/images/val
+    annotations: Domain1/Low/annotations/val.json
+  test:
+    images: Domain1/Low/images/test
+    annotations: Domain1/Low/annotations/test.json
+- name: D2_High
+  source: TiROD
+  scene: High
+  expert: 0
+  train:
+    images: Domain2/High/images/train
+    annotations: Domain2/High/annotations/train.json
+  val:
+    images: Domain2/High/images/val
+    annotations: Domain2/High/annotations/val.json
+  test:
+    images: Domain2/High/images/test
+    annotations: Domain2/High/annotations/test.json
+- name: D2_Low
+  source: TiROD
+  scene: Low
+  expert: 1
+  train:
+    images: Domain2/Low/images/train
+    annotations: Domain2/Low/annotations/train.json
+  val:
+    images: Domain2/Low/images/val
+    annotations: Domain2/Low/annotations/val.json
+  test:
+    images: Domain2/Low/images/test
+    annotations: Domain2/Low/annotations/test.json
+- name: D3_High
+  source: TiROD
+  scene: High
+  expert: 0
+  train:
+    images: Domain3/High/images/train
+    annotations: Domain3/High/annotations/train.json
+  val:
+    images: Domain3/High/images/val
+    annotations: Domain3/High/annotations/val.json
+  test:
+    images: Domain3/High/images/test
+    annotations: Domain3/High/annotations/test.json
+- name: D3_Low
+  source: TiROD
+  scene: Low
+  expert: 1
+  train:
+    images: Domain3/Low/images/train
+    annotations: Domain3/Low/annotations/train.json
+  val:
+    images: Domain3/Low/images/val
+    annotations: Domain3/Low/annotations/val.json
+  test:
+    images: Domain3/Low/images/test
+    annotations: Domain3/Low/annotations/test.json
+- name: D4_High
+  source: TiROD
+  scene: High
+  expert: 0
+  train:
+    images: Domain4/High/images/train
+    annotations: Domain4/High/annotations/train.json
+  val:
+    images: Domain4/High/images/val
+    annotations: Domain4/High/annotations/val.json
+  test:
+    images: Domain4/High/images/test
+    annotations: Domain4/High/annotations/test.json
+- name: D4_Low
+  source: TiROD
+  scene: Low
+  expert: 1
+  train:
+    images: Domain4/Low/images/train
+    annotations: Domain4/Low/annotations/train.json
+  val:
+    images: Domain4/Low/images/val
+    annotations: Domain4/Low/annotations/val.json
+  test:
+    images: Domain4/Low/images/test
+    annotations: Domain4/Low/annotations/test.json
+- name: D5_High
+  source: TiROD
+  scene: High
+  expert: 0
+  train:
+    images: Domain5/High/images/train
+    annotations: Domain5/High/annotations/train.json
+  val:
+    images: Domain5/High/images/val
+    annotations: Domain5/High/annotations/val.json
+  test:
+    images: Domain5/High/images/test
+    annotations: Domain5/High/annotations/test.json
+- name: D5_Low
+  source: TiROD
+  scene: Low
+  expert: 1
+  train:
+    images: Domain5/Low/images/train
+    annotations: Domain5/Low/annotations/train.json
+  val:
+    images: Domain5/Low/images/val
+    annotations: Domain5/Low/annotations/val.json
+  test:
+    images: Domain5/Low/images/test
+    annotations: Domain5/Low/annotations/test.json

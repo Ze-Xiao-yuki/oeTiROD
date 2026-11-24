@@ -1,0 +1,95 @@
+# Project prototype: run --method REP. Maintenance is opt-in after measuring idle/validation cost.
+profile: project
+detector: nanodet.yml
+data_root: ../datasets/self_collected
+output: ../outputs/project
+initial_checkpoint: null
+resnet_weights: null
+training:
+  seed: 1234
+  epochs: 50
+  batch_size: 8
+  workers: 0
+  lr: 0.001
+  min_lr: 5.0e-05
+  weight_decay: 0.05
+  grad_clip: 35
+  val_interval: 1
+replay:
+  capacity: 150
+  ratio: 0.5
+distillation:
+  alpha: 1.0
+  beta: 1.0
+ewc:
+  strength: 10000
+  fisher_batches: 32
+maintenance:
+  enabled: false
+  threshold: 1.0e-05
+  budget_seconds: 60.0
+  allowed_drop: 0.0
+  protected:
+  - backbone
+  - fpn
+  - router
+tasks:
+- name: indoor
+  source: self_collected
+  scene: 室内常规
+  expert: 0
+  train:
+    images: indoor/images/train
+    annotations: indoor/annotations/train.json
+  val:
+    images: indoor/images/val
+    annotations: indoor/annotations/val.json
+  test:
+    images: indoor/images/test
+    annotations: indoor/annotations/test.json
+- name: outdoor
+  source: self_collected
+  scene: 室外自然光
+  expert: 0
+  train:
+    images: outdoor/images/train
+    annotations: outdoor/annotations/train.json
+  val:
+    images: outdoor/images/val
+    annotations: outdoor/annotations/val.json
+  test:
+    images: outdoor/images/test
+    annotations: outdoor/annotations/test.json
+- name: lowlight
+  source: self_collected
+  scene: 低光照
+  expert: 1
+  train:
+    images: lowlight/images/train
+    annotations: lowlight/annotations/train.json
+  val:
+    images: lowlight/images/val
+    annotations: lowlight/annotations/val.json
+  test:
+    images: lowlight/images/test
+    annotations: lowlight/annotations/test.json
+- name: motion_blur
+  source: self_collected
+  scene: 动态模糊
+  expert: 2
+  train:
+    images: motion_blur/images/train
+    annotations: motion_blur/annotations/train.json
+  val:
+    images: motion_blur/images/val
+    annotations: motion_blur/annotations/val.json
+  test:
+    images: motion_blur/images/test
+    annotations: motion_blur/annotations/test.json
+experts:
+  count: 3
+  router_weight: 1.0
+memory:
+  stm_capacity: 128
+  ltm_capacity: 150
+  candidates_per_task: 256

@@ -1,0 +1,1 @@
+数据不随代码分发。修改 configs 中的 data_root 后运行 --check-data。TiROD 使用 Domain1~5/High|Low；自采数据示例按 indoor、outdoor、lowlight、motion_blur 组织。每个任务均有 images/train、images/val、images/test 与 annotations/train.json、val.json、test.json。所有 JSON 必须带相同完整类别表；公开13类与自采12类应分别运行，若混用需先人工确定统一类别映射。

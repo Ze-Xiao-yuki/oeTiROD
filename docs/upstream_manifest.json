@@ -1,0 +1,778 @@
+[
+  {
+    "path": "LICENSE",
+    "sha256": "b074cca89569a8f57266e4ee8f81a0c728433d5525d98608ff708fec91034312"
+  },
+  {
+    "path": "README.md",
+    "sha256": "a87072c0f041a3c3e5e1dcb9f5637c60036ec95b1d63922c8579908f3441ec38"
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "95feb71686394220c79bf729fa0e8a12a82b9c7eda91fae4c646a1c9364bccd9"
+  },
+  {
+    "path": "setup.py",
+    "sha256": "89fc94cf70efe5c0c0e8adb688af2869d193d5f5cbcfb139fd1d4645e524c485"
+  },
+  {
+    "path": "config/nanodet-plus-m-1.5x_320.yml",
+    "sha256": "b43c4b0c8bfb1e64fbda31abb4a738fd5fb2af2f03e1fd8723eb7969bf32672a"
+  },
+  {
+    "path": "config/nanodet-plus-m-1.5x_416.yml",
+    "sha256": "019d9ce55fdcf4d65780d4d6dc585c1b5d326758f2fbed8ddf9ac2012d5d3700"
+  },
+  {
+    "path": "config/nanodet-plus-m_320.yml",
+    "sha256": "0151dbd6130f9df3a26d7819384a629e8e5c7b6b9e8c54aafa1c1ce266a33afa"
+  },
+  {
+    "path": "config/nanodet-plus-m_416-yolo.yml",
+    "sha256": "45b4e6203f581b7d808bbfdcdd488c028bd7ab536b1e3696a4e0225295f3dd12"
+  },
+  {
+    "path": "config/nanodet-plus-m_416.yml",
+    "sha256": "43ee81d8273e972dc19b922bc380cb638235e50b3f54eb5bea4a87cc6c54b896"
+  },
+  {
+    "path": "config/nanodet_custom_xml_dataset.yml",
+    "sha256": "641cd8499b133cc84b2ff1a532b51e1881e336222a9100b4ae3d8f7c7d7fed2a"
+  },
+  {
+    "path": "eclod/TiROD.py",
+    "sha256": "f7ddfe936d8ff3f23bb8d693f3a69e8f36f1e391f4c5e73dadc5d56c320cc68f"
+  },
+  {
+    "path": "eclod/TiROD_CUMUL.py",
+    "sha256": "fec64c0e91b24dc3efc37e16b76213aefda3c27f18d6fcc3d14d89c44506ff2c"
+  },
+  {
+    "path": "eclod/TiROD_EWC.py",
+    "sha256": "296abdbe611a7e90cba99b93dab73307555b83e88a6ac13d6d22c7722ab374e6"
+  },
+  {
+    "path": "eclod/TiROD_KMREP_ResNet.py",
+    "sha256": "b45f331a236dcb8f1e41932eba81319f6346f4f77b98da8351b90c681d5d96b4"
+  },
+  {
+    "path": "eclod/TiROD_LD.py",
+    "sha256": "00374c2aa19276237d8b2c4c5bcdc56a48e8d96e37a1465b825d7b9c0dd4cc71"
+  },
+  {
+    "path": "eclod/TiROD_LREP.py",
+    "sha256": "919b6e2ebae0d1bf3707a6a1afad30643a3bf013733cd16b727fab5922fa0c85"
+  },
+  {
+    "path": "eclod/TiROD_LWF.py",
+    "sha256": "9c5fabe534284708b2dbe5d404aa5a71099cf5c083c17c3bc160d81ea6f606c0"
+  },
+  {
+    "path": "eclod/TiROD_OnlineEWC.py",
+    "sha256": "ff49a4a4d85e5bc875a3797c90b2d55f0994b8f656765c5b2f801eae14b09ffc"
+  },
+  {
+    "path": "eclod/TiROD_REP.py",
+    "sha256": "8ba43b66d328891ec12a7203743f27a6319126bb526db495dac48629eef0e1ed"
+  },
+  {
+    "path": "eclod/TiROD_SID.py",
+    "sha256": "f0c16120b8a481962113ff07d5088d57551763a3682d441fa128fe90f37559ab"
+  },
+  {
+    "path": "eclod/TiROD_TREP.py",
+    "sha256": "391323de2ae1ac94502b1a3b66e18b6da426c63475cdefab1301f5b8a64333bc"
+  },
+  {
+    "path": "imgs/benchmark.png",
+    "sha256": "61b0aac8b39cc5f23462eb7ac719059216a02fd4bd8e67db2f3322676a9833c8"
+  },
+  {
+    "path": "imgs/dataset.png",
+    "sha256": "91577becec4fbaeea99c4d6ebce12e0ff80f7c94c36835a224b5f494f96a4322"
+  },
+  {
+    "path": "imgs/TiROD.png",
+    "sha256": "566824581aa7af5474fa9f0e4b6562dc26c8158fe06ecf9ed31cf6061edf53e8"
+  },
+  {
+    "path": "imgs/TiROD_images.png",
+    "sha256": "d158e0ddf12c726d9f2f9ba93ad07c50dbfa25f113a9b77b73cb397d5b1d4f6d"
+  },
+  {
+    "path": "nanodet/demo-inference-with-pytorch.ipynb",
+    "sha256": "94ddab0608ef25942f9e561c9acc930fce0fc901bd3aaaa186c89f180d9b1f44"
+  },
+  {
+    "path": "nanodet/demo.py",
+    "sha256": "83e87775f994c3adcf76bf9fe05d649e798f9ed425a8cd5e1e7575bc5d3190fa"
+  },
+  {
+    "path": "nanodet/__about__.py",
+    "sha256": "f40bd0f36f05bd395b935d82467dcd93a45b05cff19a6e040c988324897d6e09"
+  },
+  {
+    "path": "nanodet/__init__.py",
+    "sha256": "0ccbdc365bbe8d53970e26e87ebea08e1975460aeb929366c146b5635791fa9e"
+  },
+  {
+    "path": "nanodetDocs/config_file_detail.md",
+    "sha256": "ad2fb8242421099007335f4c6d0cb7fbb004a49eefeedf93290d692c4a4d5912"
+  },
+  {
+    "path": "nanodetDocs/README.md",
+    "sha256": "bcf6c6cb2eb5d15ed1f41d309c607c792499bf436611108163c5834de6940e79"
+  },
+  {
+    "path": "nanodetDocs/update.md",
+    "sha256": "58ca3fd17be5881e6b31878c72c1f26f745252dff3f4137b1a02f28eecee6f7b"
+  },
+  {
+    "path": "tools/convert_old_checkpoint.py",
+    "sha256": "b27c5ab60cd6957cd7dc699c16df38ebd7a99a0094610a93d76614bebfc41594"
+  },
+  {
+    "path": "tools/export_onnx.py",
+    "sha256": "38d1d4350c942d35b2e2c0928be2f9ea4962645a5dfc2f4e619b4c53ee8f470b"
+  },
+  {
+    "path": "tools/export_torchscript.py",
+    "sha256": "187786f21862a7aba448747deed89dd016e7d043bee45133328906aa7bf351bb"
+  },
+  {
+    "path": "tools/flops.py",
+    "sha256": "2690568f0ea463c4328aa33886922e285a6f5247e797e57ad496373567a45649"
+  },
+  {
+    "path": "tools/inference.py",
+    "sha256": "1589cb92e40f0e7a64331c78c8ea4e505728351b179ab338ce6c87a14ee9ac5b"
+  },
+  {
+    "path": "tools/test.py",
+    "sha256": "e99bb7d73607dd8f19d1a89aadf9b85b679f5de2371fd7d11cafe4e2d13a0b6d"
+  },
+  {
+    "path": "tools/train.py",
+    "sha256": "4160029218d0ed9211514af794c6bda6199b452ad437ba9018aa2fa53c326a30"
+  },
+  {
+    "path": "config/convnext/nanodet-plus_convnext-nano_640.yml",
+    "sha256": "b43114a3a1081a68014f9d8304db042d9b30145741fba1cfeb02e5ae8d5e0864"
+  },
+  {
+    "path": "config/legacy_v0.x_configs/nanodet-g.yml",
+    "sha256": "57aae1dea69ee5d8ce885806cb2681c791d0c63bf11f04db3f1aa5a608d37fd4"
+  },
+  {
+    "path": "config/legacy_v0.x_configs/nanodet-m-0.5x.yml",
+    "sha256": "a442d78b59e261fe849c056d21816402fc91b2130ff363e29dc665844374d02e"
+  },
+  {
+    "path": "config/legacy_v0.x_configs/nanodet-m-1.5x-416.yml",
+    "sha256": "331c4742d67b25e9e52bb0eb6ae6aded566bec3307204a9a7c93e47997b5e7cb"
+  },
+  {
+    "path": "config/legacy_v0.x_configs/nanodet-m-1.5x.yml",
+    "sha256": "a8544da1ab99692397f02388250b3fd1289ee8e487589b38353854e9a410d57e"
+  },
+  {
+    "path": "config/legacy_v0.x_configs/nanodet-m-416.yml",
+    "sha256": "5a5c018592662a5c0dc8d956924ca1ac52f18a4ae873ae78d642aa296436860d"
+  },
+  {
+    "path": "config/legacy_v0.x_configs/nanodet-m.yml",
+    "sha256": "ce6c2945f9fa8caea5aeeeb69dc62e029730f4aa3a938711099a78a818737bb0"
+  },
+  {
+    "path": "config/legacy_v0.x_configs/EfficientNet-Lite/nanodet-EfficientNet-Lite0_320.yml",
+    "sha256": "e728a12c8a57f05f2bdc9e3915c76b5a6dc3c115885966c5f54b6ac77cf9f997"
+  },
+  {
+    "path": "config/legacy_v0.x_configs/EfficientNet-Lite/nanodet-EfficientNet-Lite1_416.yml",
+    "sha256": "5a2248a0213a0b3a5489cb9c624f23616cb790b8f56ca408ef583006ab7ec104"
+  },
+  {
+    "path": "config/legacy_v0.x_configs/EfficientNet-Lite/nanodet-EfficientNet-Lite2_512.yml",
+    "sha256": "64b3b8f0379c7908ed146d17a780ade83a1bf708ea007d5cd93e35388c463d64"
+  },
+  {
+    "path": "config/legacy_v0.x_configs/RepVGG/nanodet-RepVGG-A0_416.yml",
+    "sha256": "67922755770625058b01040c72965963210f7215cdc34134513dab8d1b04699d"
+  },
+  {
+    "path": "config/legacy_v0.x_configs/Transformer/nanodet-t.yml",
+    "sha256": "6ff439853b4a4606c357a251e32dc34e5197b8631102478b227b14aa88d5ce14"
+  },
+  {
+    "path": "eclod/cfg/TiROD.yml",
+    "sha256": "afe70a14675932a927bdec2916e6b170557407763c2ad8fd393b1f3bf41f6ebf"
+  },
+  {
+    "path": "eclod/baseModels/CUMULtask1/eval_results.txt",
+    "sha256": "56e24bc770f95f6e4ff015dd8cf40208390ad5f3a3071a6c2dadc2e172b4fa30"
+  },
+  {
+    "path": "eclod/baseModels/CUMULtask1/model_last.ckpt",
+    "sha256": "9404728098e271769d345de6c0609cbe058f0e5b11c1c118466049a93e18ebe6"
+  },
+  {
+    "path": "eclod/baseModels/CUMULtask1/results.json",
+    "sha256": "77d67c377b89365286191acc41495e2392562d12b25d60bbc689568743b9961e"
+  },
+  {
+    "path": "eclod/baseModels/CUMULtask1/results0.json",
+    "sha256": "77d67c377b89365286191acc41495e2392562d12b25d60bbc689568743b9961e"
+  },
+  {
+    "path": "eclod/baseModels/CUMULtask10/eval_results.txt",
+    "sha256": "1312723f51d9f8ea061ff26a71fb224ec140811079ba6de794de004a376675e8"
+  },
+  {
+    "path": "eclod/baseModels/CUMULtask10/model_last.ckpt",
+    "sha256": "3fc54b66f421559905a40d198d80dfc9581d17f73819869dc0908f9a2be79725"
+  },
+  {
+    "path": "eclod/baseModels/CUMULtask10/results.json",
+    "sha256": "d5e7942978998e4e34cda38a8c7c08913d49c400985458828a55a9322bc513f0"
+  },
+  {
+    "path": "eclod/baseModels/CUMULtask10/results0.json",
+    "sha256": "d5e7942978998e4e34cda38a8c7c08913d49c400985458828a55a9322bc513f0"
+  },
+  {
+    "path": "eclod/baseModels/Naivetask1/model_last.ckpt",
+    "sha256": "d87ccd5b75711c847ba61cef99735438c8c6535d5536f8064d340695d02c7ad8"
+  },
+  {
+    "path": "eclod/baseModels/CUMULtask1/model_best/eval_results.txt",
+    "sha256": "62470cdbb5a0a317077830c1e4bfe8094408057a79811fe6fdca67f67ca4deda"
+  },
+  {
+    "path": "eclod/baseModels/CUMULtask1/model_best/model_best.ckpt",
+    "sha256": "448dfc9ec31a31cc25c6f4cac650c1a8281b57c4e6d23e8514fc4835af35733f"
+  },
+  {
+    "path": "eclod/baseModels/CUMULtask1/model_best/nanodet_model_best.pth",
+    "sha256": "372099eee21b3f66dc76bc58ecf972f33d4d6fceaaaddecd2f6a2525633df0fb"
+  },
+  {
+    "path": "eclod/baseModels/CUMULtask1/NanoDet/2024-08-14-15-34-13/checkpoints/epoch=49-step=1100.ckpt",
+    "sha256": "1684a639fe61cbc2df955282e255a7a04f7f8cf79ef57c9d602759e94bfcb4d8"
+  },
+  {
+    "path": "eclod/baseModels/CUMULtask10/model_best/eval_results.txt",
+    "sha256": "7a6653dce4ad6750adaf5d103719aa3503bc31d3873f69bd296348276fc84a3e"
+  },
+  {
+    "path": "eclod/baseModels/CUMULtask10/model_best/model_best.ckpt",
+    "sha256": "492cccf2c5abe47eb1aaf2628c0218ae8155f3c2575399eacce5f8f70d9c737e"
+  },
+  {
+    "path": "eclod/baseModels/CUMULtask10/model_best/nanodet_model_best.pth",
+    "sha256": "813bc23df8be96e66c603d638a6964166ed43a645c4962c2f2d34feb350876ff"
+  },
+  {
+    "path": "eclod/baseModels/CUMULtask10/NanoDet/2024-08-14-18-54-52/checkpoints/epoch=49-step=8300.ckpt",
+    "sha256": "945e7d0a37d9d43b91106a25f45757dbf626240423b4de38d42814ae3edf543d"
+  },
+  {
+    "path": "nanodet/data/batch_process.py",
+    "sha256": "172874e1f792f8da234c35357655fc105313c6f6b3681963e54a1b1d4518374d"
+  },
+  {
+    "path": "nanodet/data/collate.py",
+    "sha256": "2f6e567037cac4b803147ef02f274ab1cd86a9becfaf40de038b5e59530bbf60"
+  },
+  {
+    "path": "nanodet/evaluator/coco_detection.py",
+    "sha256": "ffed3a940259b83a0c8f2e72021c45cbe78f6cda5d2f1823bf52c426bd385e46"
+  },
+  {
+    "path": "nanodet/evaluator/__init__.py",
+    "sha256": "9b05ce81077e09e9da4609b9a3a1a7237b0d7216936c4a363276c29ebdea2c30"
+  },
+  {
+    "path": "nanodet/optim/builder.py",
+    "sha256": "b4d0b75bcbcaddd066cb183970f008a64a7c0888deaa80980b4724df8f948c8a"
+  },
+  {
+    "path": "nanodet/optim/__init__.py",
+    "sha256": "9161c793d7c82bc98bc51103b7c401e92ed2001e2d2355d50ca39551d9d5a453"
+  },
+  {
+    "path": "nanodet/trainer/dist_task.py",
+    "sha256": "26dbab77ba81149c96c2b3477b13510baa2d430c486fc3ade77ce11e0d0e8c4e"
+  },
+  {
+    "path": "nanodet/trainer/ewc.py",
+    "sha256": "a01628f99927f89eb5580e3057c4f0498058a7a4de97fc5b2915e79ca7d1a760"
+  },
+  {
+    "path": "nanodet/trainer/latent_dist_task.py",
+    "sha256": "aaa414d47156b3b724b1e849598a183ef567b97aa995290a69fa04599f54a0e8"
+  },
+  {
+    "path": "nanodet/trainer/latent_dist_task_runtime.py",
+    "sha256": "508667fee1952f07ec3d28cc91c2066b884e236177b0c6ff34e4ccfdfb710f1a"
+  },
+  {
+    "path": "nanodet/trainer/LwF_task.py",
+    "sha256": "5726fb96d49a0ac4404307d7ab82433aa494d1f9c7831b3e3bd4db5597f11f74"
+  },
+  {
+    "path": "nanodet/trainer/onlineEWC.py",
+    "sha256": "9bf71c7dccf0b925ff22dc0f664965e218abdee313565e0fd49ba8e5e20394d5"
+  },
+  {
+    "path": "nanodet/trainer/pseudo_lab_task.py",
+    "sha256": "85c18a8e3d1a58ac5df8b726805f0853214ef76c143148735e27d9b7c7b97c7c"
+  },
+  {
+    "path": "nanodet/trainer/task.py",
+    "sha256": "0d8b1336922b8bea81e7c8c2d407a8eddc115e0fce67dce6b80df6961433b50f"
+  },
+  {
+    "path": "nanodet/trainer/__init__.py",
+    "sha256": "fdf69f7fdb144247adeb75d5400784ae163cb9cf56fb99b80df999d6ea1b9d42"
+  },
+  {
+    "path": "nanodet/util/box_transform.py",
+    "sha256": "291d74af447d6ec08d0a516dab56054c2e3b93941f13111abd4d0bbaea8a9881"
+  },
+  {
+    "path": "nanodet/util/check_point.py",
+    "sha256": "be7a10e50719f52215fb2a97a7670220bb8080e8881e9a56f33612f7b32b7aa3"
+  },
+  {
+    "path": "nanodet/util/config.py",
+    "sha256": "3ed2e8264e9147cb6f424ab78aaa15f979b4e45654e22d121c714591facc184d"
+  },
+  {
+    "path": "nanodet/util/env_utils.py",
+    "sha256": "1f55ee1f1aa903251b9557a2af3a544b916ce2be1acf51ca92cbea2c96aef2db"
+  },
+  {
+    "path": "nanodet/util/flops_counter.py",
+    "sha256": "fc7aa7cb6a073e3a9975847f21a453f92b22117596b57bbbc02fd6613776ebf9"
+  },
+  {
+    "path": "nanodet/util/logger.py",
+    "sha256": "77175387ad2470b0f87a516499ff3bd750f0dcadd34a40fb4549e6f0c035c5c9"
+  },
+  {
+    "path": "nanodet/util/misc.py",
+    "sha256": "7e358181142d43e99f20be5a60f5431d02347044c94262a79133d61c1d6a7973"
+  },
+  {
+    "path": "nanodet/util/path.py",
+    "sha256": "b678a4818b148bb536d9ca085b7b9cb3f106f364bb24a01eaec145da06259f18"
+  },
+  {
+    "path": "nanodet/util/rank_filter.py",
+    "sha256": "220e40186d2788f2120985df80fbd2ae2c626cc92b22d109787638a270cbbdb9"
+  },
+  {
+    "path": "nanodet/util/scatter_gather.py",
+    "sha256": "b20a02ba6372aa0ad0eb54a99ec73a0d18befa733a5a9571d535358fd40e02d1"
+  },
+  {
+    "path": "nanodet/util/util_mixins.py",
+    "sha256": "1ea70342d0f8c1e37e1354669b877d73fb3c784c2a72a3139176ff8b5fe2999c"
+  },
+  {
+    "path": "nanodet/util/visualization.py",
+    "sha256": "579b5eab9a7bbea0e9ee3dd007f758a38947aa35eaa80479a9c013306783605b"
+  },
+  {
+    "path": "nanodet/util/yacs.py",
+    "sha256": "31526f0a9e8f089077338d31294cfe54e6d4b09205c16337afd06bd7afd18f9c"
+  },
+  {
+    "path": "nanodet/util/__init__.py",
+    "sha256": "4f0263c71811fef2d33295807d100fd3bccd347eb69a5477ed4659866aaf66ec"
+  },
+  {
+    "path": "nanodet/data/dataset/base.py",
+    "sha256": "3aedecae5fa121aad858982d5396ba075f9d2fb03842500dadbec0a966af8f6a"
+  },
+  {
+    "path": "nanodet/data/dataset/coco.py",
+    "sha256": "20d2e1446b7dfa00ec83e302a3f0fd7f56dbdc6c06ef7190a2f4201a16a89d3a"
+  },
+  {
+    "path": "nanodet/data/dataset/tirod.py",
+    "sha256": "c5557e7639bad76be3a4d2f675322ac72648285fb9af8f29ce7d9d889db560a5"
+  },
+  {
+    "path": "nanodet/data/dataset/xml_dataset.py",
+    "sha256": "f20d7779a520605877e9811e861d50fb27449f55594154b5297c707921983887"
+  },
+  {
+    "path": "nanodet/data/dataset/yolo.py",
+    "sha256": "3182fb4e80b9ee215365d1c9a458a9668ff72bde6041733bef8e1b9870748aa6"
+  },
+  {
+    "path": "nanodet/data/dataset/__init__.py",
+    "sha256": "b02d04d863b07fba1abf7e058b0b94d4ca2615a46a79048d5be34027b0e923b3"
+  },
+  {
+    "path": "nanodet/data/transform/color.py",
+    "sha256": "884dcc2005cef326016b97d1e4df35d7362045687e32e491fc18a5ba2b45f3c4"
+  },
+  {
+    "path": "nanodet/data/transform/mosaic.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "nanodet/data/transform/pipeline.py",
+    "sha256": "6de08407c83c3ae83f1a29c9f16c29f70667a0ae13b2625228659dbab248b5a8"
+  },
+  {
+    "path": "nanodet/data/transform/warp.py",
+    "sha256": "db6871c4261784113d764c5cc64e7c1d6565d5e12a2db6991557a2541aa14eb1"
+  },
+  {
+    "path": "nanodet/data/transform/__init__.py",
+    "sha256": "3ae483d3d8b7b91ce14d3ca66da6d17fa7174b7f4081c1a23ddfc5f8c13ce8a4"
+  },
+  {
+    "path": "nanodet/model/arch/nanodet_plus.py",
+    "sha256": "cff76aafc94ea3270af5e3e455ed5f292edfd8ceeb71c92486938c27899e937a"
+  },
+  {
+    "path": "nanodet/model/arch/one_stage_detector.py",
+    "sha256": "c078adcc417a6f699ad134fa30df44281961ab68672da3ce82f5b95840a9666d"
+  },
+  {
+    "path": "nanodet/model/arch/__init__.py",
+    "sha256": "7c2c4cd916aeae665239973af16934a1c60879df2eaa7905c05ceed471b4e448"
+  },
+  {
+    "path": "nanodet/model/backbone/custom_csp.py",
+    "sha256": "489886912bf8e50f307d12913d9c6183923aa85fb4a43249047abb0ba431771b"
+  },
+  {
+    "path": "nanodet/model/backbone/efficientnet_lite.py",
+    "sha256": "d10ad9ed7362c98471d61f43932f6bfb18dfc1c2ddc2a25d422cc5eeeed41c56"
+  },
+  {
+    "path": "nanodet/model/backbone/ghostnet.py",
+    "sha256": "d3af66948fd68e1d17b04097096172c456566b592e51d10ae53045a5057ecfd4"
+  },
+  {
+    "path": "nanodet/model/backbone/mobilenetv2.py",
+    "sha256": "621c50436a46ed920dc586d5c0b8b4eb6836f933dec288609d376ba887bedb0e"
+  },
+  {
+    "path": "nanodet/model/backbone/repvgg.py",
+    "sha256": "1c79f10bedb79fe60a027d350c474e497ad9cfe60e59ce8674f31329dab3d271"
+  },
+  {
+    "path": "nanodet/model/backbone/resnet.py",
+    "sha256": "f426ffcd123805a0d005cd062210a5228661663428e2e2c36660d6f74c975093"
+  },
+  {
+    "path": "nanodet/model/backbone/shufflenetv2.py",
+    "sha256": "18bd365969bdbe63a33e21c327417dd942ef6e8caab7c9439490dbc299061c2c"
+  },
+  {
+    "path": "nanodet/model/backbone/timm_wrapper.py",
+    "sha256": "95022d65303d50ef6603ee2d7beaab6ac6bcd588358912b93c97469c2057df77"
+  },
+  {
+    "path": "nanodet/model/backbone/__init__.py",
+    "sha256": "df4595da08a8090addd5a32b5b710c9ea3ec19e51e09c3d038bcc715391135d5"
+  },
+  {
+    "path": "nanodet/model/fpn/fpn.py",
+    "sha256": "edf8f4729ee4dbc29e5a0a9a2872006cff7104af43ec45120b6dc7e5911a6205"
+  },
+  {
+    "path": "nanodet/model/fpn/ghost_pan.py",
+    "sha256": "1e38ba226e7c32e89c6133cff5855412786352373db9a86f4f7213706c714b35"
+  },
+  {
+    "path": "nanodet/model/fpn/pan.py",
+    "sha256": "fd39c37c8ea720b8fd3833ddc4c82622a4c774def55904916d920901ef927827"
+  },
+  {
+    "path": "nanodet/model/fpn/tan.py",
+    "sha256": "1af61e729c426170ab1f174aaeed65e8cd27cd3bf969ba78a1f487958f941fdb"
+  },
+  {
+    "path": "nanodet/model/fpn/__init__.py",
+    "sha256": "1cd5c1ccfb2757c9c78598422c717138074c1b3ceccd56942fde5a6f5ddc8c87"
+  },
+  {
+    "path": "nanodet/model/head/gfl_head.py",
+    "sha256": "5b3131cbed6745201770cf423865c030a57f2620cc69367d3d527279b1a18fb8"
+  },
+  {
+    "path": "nanodet/model/head/nanodet_head.py",
+    "sha256": "94051a62cbc75419f9c88da76e0e8e0815c7adb50e9f7422655da623af06167a"
+  },
+  {
+    "path": "nanodet/model/head/nanodet_plus_dist_head.py",
+    "sha256": "3618e95863560bf5af53fb13a70cc1726365709aee0319a1ed0a70c59a7baa6b"
+  },
+  {
+    "path": "nanodet/model/head/nanodet_plus_head.py",
+    "sha256": "a80759a3b7822462875457ac2f5424437c744925f62bb64a25b7239f6c58f6c5"
+  },
+  {
+    "path": "nanodet/model/head/simple_conv_head.py",
+    "sha256": "f383cbdad3d0686640c957a704a6479d090c53c60cdb915df8f77f1b6f95eaa5"
+  },
+  {
+    "path": "nanodet/model/head/__init__.py",
+    "sha256": "3e01576e3196a564981143796c10975cee5ebae56850e6ab8d9c348d5320cc78"
+  },
+  {
+    "path": "nanodet/model/loss/gfocal_loss.py",
+    "sha256": "6a775ea81a3a154732b2c4342a9e268f30c2b9a0727144da6e6cf64406aae079"
+  },
+  {
+    "path": "nanodet/model/loss/iou_loss.py",
+    "sha256": "f38002c1bd250fed0050fe3a435de3960f11f2ae1a052b72dab3ff7c7e9c4d78"
+  },
+  {
+    "path": "nanodet/model/loss/utils.py",
+    "sha256": "8d9223c304dea5edaadc3e7ec7f0c21c5bf21e24d6b1da80c1eb08889bc3f9c8"
+  },
+  {
+    "path": "nanodet/model/module/activation.py",
+    "sha256": "c9000d9fbd03a03b2986a71d74cf761c9bcae5d9a4050cb8063fa207040e3f95"
+  },
+  {
+    "path": "nanodet/model/module/conv.py",
+    "sha256": "b5ac9515ee93b8701085d8acc66e799dbbccf3eaca42b9ea1bd1b208ba1720cf"
+  },
+  {
+    "path": "nanodet/model/module/init_weights.py",
+    "sha256": "4d7bb049ad60f1a751952cc0f232d10833721c921f9fd85850b79143d523cf1a"
+  },
+  {
+    "path": "nanodet/model/module/nms.py",
+    "sha256": "6310501fdd2045a96e156b11b282f3913071c9eacf352657c642ac05aef8286a"
+  },
+  {
+    "path": "nanodet/model/module/norm.py",
+    "sha256": "7306c3af984554390a21e2ea28fd03726a6862e6f9bfae39abbabe1952e6aa90"
+  },
+  {
+    "path": "nanodet/model/module/scale.py",
+    "sha256": "c85e60fdc6f28f5f69f7845e452ab29e0dd6739536956ebf069fa8f9991d6a71"
+  },
+  {
+    "path": "nanodet/model/module/transformer.py",
+    "sha256": "dc3a598605f48db1a59358a3e9dd58ea9fd8f305ec096bb101af953f34cd7cdb"
+  },
+  {
+    "path": "nanodet/model/weight_averager/ema.py",
+    "sha256": "04de2fdad140ea57229a846d2fd78b184b88e791adb381db18de108e46e0a8a8"
+  },
+  {
+    "path": "nanodet/model/weight_averager/__init__.py",
+    "sha256": "da62469e3a32e90c94fb1648f6fc0b9d0d67bc6fb4f5cc4f45c4803340138b3b"
+  },
+  {
+    "path": "nanodet/model/head/assigner/assign_result.py",
+    "sha256": "7561ecb262f7a334bf292f307c0c24ee6a4e70c157d3229c06a7725cb903edfd"
+  },
+  {
+    "path": "nanodet/model/head/assigner/atss_assigner.py",
+    "sha256": "5a3fbb7f7e7c59a26effad2b3b38f756cb794c621f92454dad54bb190fd5536a"
+  },
+  {
+    "path": "nanodet/model/head/assigner/base_assigner.py",
+    "sha256": "88da6f7f39a8e77463db140b1864f58c8f5778be09177efd5e81fe10145d56d8"
+  },
+  {
+    "path": "nanodet/model/head/assigner/dsl_assigner.py",
+    "sha256": "1630d201b8d34dc871277439da83b8b832f7bc1fec6d7ae03d8d9e6f94cde484"
+  },
+  {
+    "path": "tests/data/batched_nms_data.pkl",
+    "sha256": "e66917d77418aedc6835b77ed4f82094a7891eb138294ce4b2edae1078cd1488"
+  },
+  {
+    "path": "tests/data/dummy_coco.json",
+    "sha256": "f0c68a894a3a5b7962f6a427c03af53579b0585e985fff65216fe8088f61bf8c"
+  },
+  {
+    "path": "tests/data/test_img.jpg",
+    "sha256": "feea5825f416ca5c68bb29dcb1cdbfcfd828ada08f5ef89524b326c3c4b9d998"
+  },
+  {
+    "path": "tests/data/test_img.txt",
+    "sha256": "86a9e105dba76fdf487d77cf1e609e256be5568b7aef143333ed752537bedb85"
+  },
+  {
+    "path": "tests/data/test_img.xml",
+    "sha256": "8331607c05106f2be5e7e14c8ed51bad987c519737d3e0b03bc53c63ccf5c193"
+  },
+  {
+    "path": "tests/test_configs/test_config.py",
+    "sha256": "eb0ca33df7f7829af12c6607f341a29e60d54b96e8f0e0c3969ea4e6814772e3"
+  },
+  {
+    "path": "tests/test_data/test_batch_process.py",
+    "sha256": "4f3a52a217e05d86b94f7bfdd94970d259994ed490f82844ec6f4cfd67f85931"
+  },
+  {
+    "path": "tests/test_data/test_collate.py",
+    "sha256": "621b93080c0f115cc866001f17e5098a6a51ad872c2124eb378e512b2475365f"
+  },
+  {
+    "path": "tests/test_evaluator/test_coco_detection.py",
+    "sha256": "6df1586ccf8f39e8dfb8a788dafe9042d5572c94be860c8ec267924510a3acd1"
+  },
+  {
+    "path": "tests/test_optim/test_builder.py",
+    "sha256": "3ee1f346327b6cb385209ce51b4de0d82d7112f44fe204622e286bd0fd2ed450"
+  },
+  {
+    "path": "tests/test_trainer/test_lightning_task.py",
+    "sha256": "f385bf29f2f87107db03ced381f347fd1491d6a95a22439b9931492b6f12f502"
+  },
+  {
+    "path": "tests/test_utils/test_env_utils.py",
+    "sha256": "f59cc4c1d90aa480d0b401543bbd8a98df3d7b4dc98c5e7051c98d1729389020"
+  },
+  {
+    "path": "tests/test_utils/test_flops.py",
+    "sha256": "b57b4d7e5d05f6df0d1879f780f9c853a41ad8cf769b88b6ed961109cdd09f4a"
+  },
+  {
+    "path": "tests/test_utils/test_logger.py",
+    "sha256": "e874697d041c4bd8367a1a12f599dd65c02244843330c25eedca09ee013e5075"
+  },
+  {
+    "path": "tests/test_data/test_dataset/test_cocodataset.py",
+    "sha256": "5323f1476aa035528761cb8adf4b95473de0c53afa5b731711db8fd9b2ebf5a2"
+  },
+  {
+    "path": "tests/test_data/test_dataset/test_xmldataset.py",
+    "sha256": "c3cc6a5851debbcb2975b54586802433a37ba7ad431e7b1d75b3376cc921d80e"
+  },
+  {
+    "path": "tests/test_data/test_dataset/test_yolodataset.py",
+    "sha256": "1fbb7a5edb32d9736f48ec96bb881180d9b2f5aad1eadc1920a3ce6bd53cf72c"
+  },
+  {
+    "path": "tests/test_data/test_transform/test_color.py",
+    "sha256": "baf774213c9a99a16ddb9d1923adac77cfeac021acc66221850c73bda6087863"
+  },
+  {
+    "path": "tests/test_data/test_transform/test_warp.py",
+    "sha256": "367c4d91615b365934e4ff51a74d81cebc379032fc8431a12d27281f933e011a"
+  },
+  {
+    "path": "tests/test_models/test_backbone/test_custom_csp.py",
+    "sha256": "f2c99c1615c2dc7d04d3041fd3b67934084908f2fee66c950c1d01b86b44ed1a"
+  },
+  {
+    "path": "tests/test_models/test_backbone/test_efficient_lite.py",
+    "sha256": "e48678ab2fc632439e4a834c67a723d3b77926155135c4fc7aea00a67a10d5b7"
+  },
+  {
+    "path": "tests/test_models/test_backbone/test_ghostnet.py",
+    "sha256": "ce294d83a729c51a29a31f57ca7b1059eeec826fa84f23a7d63aa4effb4f9a7b"
+  },
+  {
+    "path": "tests/test_models/test_backbone/test_mobilenetv2.py",
+    "sha256": "9796f887e23fb64fb04b8987d55bb32150fc42eac67c29b0999bfe804733f764"
+  },
+  {
+    "path": "tests/test_models/test_backbone/test_repvgg.py",
+    "sha256": "004383e529a4d45ffc5d9dd1c3041ede7bdb81107119507286138818c6fc5702"
+  },
+  {
+    "path": "tests/test_models/test_backbone/test_resnet.py",
+    "sha256": "111c2ad5b128a1a6bf3cc254268e2dbbdfdf5e55b638da1dee4a1312113f8b8f"
+  },
+  {
+    "path": "tests/test_models/test_backbone/test_shufflenetv2.py",
+    "sha256": "69617a2ad9c620cbabd04aab4f5a91ed8454649fab1dac1726534b258a1de790"
+  },
+  {
+    "path": "tests/test_models/test_backbone/test_timm_wrapper.py",
+    "sha256": "a55870beb257a07eb057c9360935c6ecf40f34e47d02449c02ede3940ecdea5e"
+  },
+  {
+    "path": "tests/test_models/test_fpn/test_fpn.py",
+    "sha256": "8839b16057850ea365a3fa559b64ae4c4399c9baa836c3d35d33739d731fb574"
+  },
+  {
+    "path": "tests/test_models/test_fpn/test_ghost_pan.py",
+    "sha256": "81f31555c62e824eb4a88e3f51a360948a72342930cf78d52aea55aad86f46a0"
+  },
+  {
+    "path": "tests/test_models/test_fpn/test_pan.py",
+    "sha256": "a808d0dba0501887a8aa11ccec01ab1d0996effd77636a461b5d538233c6d041"
+  },
+  {
+    "path": "tests/test_models/test_fpn/test_tan.py",
+    "sha256": "f20813b431389db2f5c69375000b0ba7032db3baac10514fa754981ece3f1e65"
+  },
+  {
+    "path": "tests/test_models/test_head/test_gfl_head.py",
+    "sha256": "68f63c094b8ae279106b47b8188b4bf07c2e1cd33ca9130918e72938334670bc"
+  },
+  {
+    "path": "tests/test_models/test_head/test_nanodet_head.py",
+    "sha256": "4932c77f3ff643f5b1c630f6e7abed4edd57fe47a7c2107d44bb1f8fceeb06a1"
+  },
+  {
+    "path": "tests/test_models/test_head/test_nanodet_plus_head.py",
+    "sha256": "4c57d245906587531b9585c04e9816965921454cb411e7c64375a2268873a97e"
+  },
+  {
+    "path": "tests/test_models/test_head/test_simple_conv_head.py",
+    "sha256": "80a7f5dd83f06ef9a89f24c3c1fad82d4276dfea60810a5404c40bfd01b24c69"
+  },
+  {
+    "path": "tests/test_models/test_loss/test_gfocal_loss.py",
+    "sha256": "90f2041de7b965e83ed839df7204601d0543d9c85f3ebe696adcfcaefe562241"
+  },
+  {
+    "path": "tests/test_models/test_loss/test_iou_loss.py",
+    "sha256": "af64a6acbb52b807df7c5230f021937438c1d1f835d7603dfeeacf88a9cf9cdc"
+  },
+  {
+    "path": "tests/test_models/test_modules/test_conv.py",
+    "sha256": "394c22d0a3c6e56df3bd1ab49d4f3410f7e2bc2b8bce7ef98c01d3d80cb74e4e"
+  },
+  {
+    "path": "tests/test_models/test_modules/test_dwconv.py",
+    "sha256": "be05bf23d44d85e5b533379961b1083c7ea2013bc1ac0192c796a1e84a76c39e"
+  },
+  {
+    "path": "tests/test_models/test_modules/test_init_weights.py",
+    "sha256": "d00414edb031f6f00b54a62ae9f03a03ec5172abffe9e647af35e0d6609cda62"
+  },
+  {
+    "path": "tests/test_models/test_modules/test_nms.py",
+    "sha256": "e9f5ef05782c5a35dcd3e9d8a622eb99ee424aa009b658447d33473a6e123632"
+  },
+  {
+    "path": "tests/test_models/test_modules/test_norm.py",
+    "sha256": "52f2ab49730db2a3303196e23382e7c4d3162c609c46defacf7eac192b1f59fe"
+  },
+  {
+    "path": "tests/test_models/test_modules/test_repvgg_conv.py",
+    "sha256": "dd8cc6bfb58b3ad8c1b9bad5acb384456271e44d3f143a2cf6b4a467fd7435ca"
+  },
+  {
+    "path": "tests/test_models/test_modules/test_scale.py",
+    "sha256": "691d367959edef0713f8cd7d344c39621a91570361cce85b670686b5f310891b"
+  },
+  {
+    "path": "tests/test_models/test_modules/test_transformer.py",
+    "sha256": "eb1f91774c54a3318921dd9bd576255fda4b44e1e18da914a5864863cc2f78d3"
+  },
+  {
+    "path": "tests/test_models/test_weight_averager/test_ema.py",
+    "sha256": "c6fa26ef0af948646297bc16b29c57b34285177114c3f4c9169a96714d44dc3c"
+  }
+]
